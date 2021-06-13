@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>HJS</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+ 
+</head>
+<body>
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
+
+	<!-- -------------------------translator------------------- -->
+	<section id="translater">
+		<div class="container">
+			<div id="google_translate_element"></div>
+			<script type="text/javascript">
+				function googleTranslateElementInit() {
+				  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+				}
+			</script>
+			<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+		</div>
+	</section>
+
+	<!-- header start -->
+	<header class="header">
+	    <div class="container">
+	        <div class="header-main">
+	           	<div class="logo">
+	              	<a href="#"><img src="img/logo.png"></a>
+	           	</div>
+		        <div class="open-nav-menu">
+		            <span></span>
+		        </div>
+	           	<div class="menu-overlay"></div>
+	           	<!-- navigation menu start -->
+	           	<nav class="nav-menu">
+		            <div class="close-nav-menu">
+		                <img src="img/close.svg" alt="close">
+		            </div>
+	             	<ul class="menu">
+		                <li class="menu-item menu-item-has-children">
+		                   <a href="#" data-toggle="sub-menu">About Us<i class="plus"></i></a>
+		                   <ul class="sub-menu">
+		                       <li class="menu-item"><a href="#">Home 1</a></li>
+		                       <li class="menu-item"><a href="#">Home 2</a></li>
+		                       <li class="menu-item"><a href="#">Home 3</a></li>
+		                       <li class="menu-item"><a href="#">Home 4</a></li>
+		                   </ul>
+		                </li>
+		                <li class="menu-item menu-item-has-children">
+		                   <a href="#" data-toggle="sub-menu">News <i class="plus"></i></a>
+		                   <ul class="sub-menu">
+		                       <li class="menu-item"><a href="#">page 1</a></li>
+		                       <li class="menu-item"><a href="#">page 2</a></li>
+		                       <li class="menu-item"><a href="#">page 3</a></li>
+		                       <li class="menu-item"><a href="#">page 4</a></li>
+		                   </ul>
+		                </li>
+		                <li class="menu-item">
+		                   <a href="#">Gallery</a>
+		                </li>
+	             	</ul>
+	           	</nav>
+	           	<!-- navigation menu end -->
+	        </div>
+	    </div>
+	</header>
+	<!-- header end -->
+
+	<main id="main">
+		
+		<!-- ------------------------first----------------------- -->
+		<section id="first">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6">
+						<div class="live">
+							<div class="tab">
+							  	<button class="tablinks ltab" onclick="openCity(event, 'live')" id="defaultOpen">Watch live</button>
+							  	<button class="tablinks ltab" onclick="openCity(event, 'join')">Join Us</button>
+							</div>
+							<div id="live" class="tabcontent lcontent">
+							  	<iframe id="ytplayer" type="text/html" width="100%" height="320"
+								  src="https://www.youtube.com/embed/MZ1WVQ3x0eU?autoplay=1&origin=http://example.com"
+								  frameborder="0"></iframe>
+							</div>
+							<div id="join" class="tabcontent lcontent">
+							  	<ul>
+							  		<li><a href="#">I wish to participate</a></li>
+							  		<li><a href="#">Be a part of our events</a></li>
+							  		<li><a href="#">Extend your support by donating to us</a></li>
+							  		<li><a href="#">Connect with us on social media</a></li>
+							  	</ul>
+							  	<div class="btnn">
+							  		<a href="#">Contribute to us</a>
+							  	</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="live">
+							<div class="tab">
+							  	<button class="tablinks ntab" onclick="openCityy(event, 'news')" id="defaultOpenn">News</button>
+							  	<button class="tablinks ntab" onclick="openCityy(event, 'social')">Social Media</button>
+							</div>
+							<div id="news" class="tabcontent ncontent">
+								<div class="n-btnn">
+									<a href="#">More News <i class="fa fa-angle-double-right"></i></a>
+								</div>
+								<div class="news-box">
+								  	<div class="news new">
+								  		<a href="#">
+								  			<img src="img/covid_vaccine.jpg">
+								  			<p>
+								  				Haj pilgrims, volunteers, field workers in Kerala’s priority list for vaccination
+								  			</p>
+								  		</a>
+								  	</div>
+								  	<div class="news">
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/1.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>Sign Petition : Facebook suspends Hindu Janajagruti Samiti’s Facebook pages </p>
+									  		</div>
+								  		</div>
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/2.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>‘Don’t use IMA to propagate any religion’: Delhi court slams IMA </p>
+									  		</div>
+								  		</div>
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/3.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>Neglected Lakshadweep !</p>
+									  		</div>
+								  		</div>
+								  	</div>
+								</div>
+							</div>
+							<div id="social" class="tabcontent ncontent">
+								<div class="n-btnn">
+									<a href="#">More Trends <i class="fa fa-angle-double-right"></i></a>
+								</div>
+							  	<div class="news-box">
+								  	<div class="news new">
+								  		<a href="#">
+								  			<img src="img/law.jpg">
+								  			<p>
+								  				#IndiaWants_BlasphemyLaw trends as Hindus demand law against blasphemous material insulting Hindu Dharma
+								  			</p>
+								  		</a>
+								  	</div>
+								  	<div class="news">
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/4.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>#KashmiriHindusExodus_ 31Yrs trends highlighting plight of Kashmiri Hindus</p>
+									  		</div>
+								  		</div>
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/5.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>#NCERT_Fakes_History trends as Hindus fume against fake history taught in NCERT books</p>
+									  		</div>
+								  		</div>
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/6.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>#SaveAndhraTemples trend as Hindus demand immediate steps for safety of temples</p>
+									  		</div>
+								  		</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+		<!-- ------------------------second------------------------ -->
+		<section id="second">
+			<div class="container">
+				<div class="live">
+					<div class="tab">
+						<button class="tablinks ttab" onclick="trending(event, 'trend')" id="defaultOpen2">Trending Topics</button>
+						<button class="tablinks ttab" onclick="trending(event, 'exclusive')">Exclusive Topics</button>
+						<button class="tablinks ttab" onclick="trending(event, 'denigrations')">Denigrations</button>
+					</div>
+					<div id="trend" class="tabcontent tcontent">
+						<div class="n-btnn">
+							<a href="#">More Trends <i class="fa fa-angle-double-right"></i></a>
+						</div>
+						<div class="trend-box">
+							<div class="trend">
+								<a href="#">
+									<img src="img/7.jpg">
+									<p>
+										Upset Hindus urge Netflix to rethink hosting anime ‘Record of Ragnarok’ as it trivializes Shiva
+									</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/8.jpg">
+									<p>Derogatory depiction of Shriram and Sita in modern attire in the Web Series ‘Ramyug’</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/9.jpg">
+									<p>‘Hindi filmmakers repeatedly insult Hindu Gods and Goddesses’ : Remarks Allahabad HC</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/10.jpg">
+									<p>You can’t hurt religious sentiments : SC rejects anticipatory bail pleas of ‘Tandav’ makers</p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div id="exclusive" class="tabcontent tcontent">
+						<div class="n-btnn">
+							<a href="#">More Trends <i class="fa fa-angle-double-right"></i></a>
+						</div>
+						<div class="trend-box">
+							<div class="trend">
+								<a href="#">
+									<img src="img/9.jpg">
+									<p>
+										Upset Hindus urge Netflix to rethink hosting anime ‘Record of Ragnarok’ as it trivializes Shiva
+									</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/8.jpg">
+									<p>Derogatory depiction of Shriram and Sita in modern attire in the Web Series ‘Ramyug’</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/2.jpg">
+									<p>‘Hindi filmmakers repeatedly insult Hindu Gods and Goddesses’ : Remarks Allahabad HC</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/10.jpg">
+									<p>You can’t hurt religious sentiments : SC rejects anticipatory bail pleas of ‘Tandav’ makers</p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div id="denigrations" class="tabcontent tcontent">
+						<div class="n-btnn">
+							<a href="#">More Trends <i class="fa fa-angle-double-right"></i></a>
+						</div>
+						<div class="trend-box">
+							<div class="trend">
+								<a href="#">
+									<img src="img/5.jpg">
+									<p>
+										Upset Hindus urge Netflix to rethink hosting anime ‘Record of Ragnarok’ as it trivializes Shiva
+									</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/4.jpg">
+									<p>Derogatory depiction of Shriram and Sita in modern attire in the Web Series ‘Ramyug’</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/9.jpg">
+									<p>‘Hindi filmmakers repeatedly insult Hindu Gods and Goddesses’ : Remarks Allahabad HC</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/10.jpg">
+									<p>You can’t hurt religious sentiments : SC rejects anticipatory bail pleas of ‘Tandav’ makers</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- -----------------------third----------------- -->
+		<section id="first">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-6">
+						<div class="live">
+							<div class="tab">
+							  	<button class="tablinks htab" onclick="history(event, 'glorious')" id="defaultOpen3">Glorious History</button>
+							  	<button class="tablinks htab" onclick="history(event, 'distortion')">Distortion Of History</button>
+							</div>
+							<div id="glorious" class="tabcontent hcontent">
+								<div class="n-btnn">
+									<a href="#">More News <i class="fa fa-angle-double-right"></i></a>
+								</div>
+								<div class="news-box">
+								  	<div class="news new">
+								  		<a href="#">
+								  			<img src="img/covid_vaccine.jpg">
+								  			<p>
+								  				Haj pilgrims, volunteers, field workers in Kerala’s priority list for vaccination
+								  			</p>
+								  		</a>
+								  	</div>
+								  	<div class="news">
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/1.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>Sign Petition : Facebook suspends Hindu Janajagruti Samiti’s Facebook pages </p>
+									  		</div>
+								  		</div>
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/2.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>‘Don’t use IMA to propagate any religion’: Delhi court slams IMA </p>
+									  		</div>
+								  		</div>
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/3.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>Neglected Lakshadweep !</p>
+									  		</div>
+								  		</div>
+								  	</div>
+								</div>
+							</div>
+							<div id="distortion" class="tabcontent hcontent">
+								<div class="n-btnn">
+									<a href="#">More Trends <i class="fa fa-angle-double-right"></i></a>
+								</div>
+							  	<div class="news-box">
+								  	<div class="news new">
+								  		<a href="#">
+								  			<img src="img/law.jpg">
+								  			<p>
+								  				#IndiaWants_BlasphemyLaw trends as Hindus demand law against blasphemous material insulting Hindu Dharma
+								  			</p>
+								  		</a>
+								  	</div>
+								  	<div class="news">
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/4.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>#KashmiriHindusExodus_ 31Yrs trends highlighting plight of Kashmiri Hindus</p>
+									  		</div>
+								  		</div>
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/5.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>#NCERT_Fakes_History trends as Hindus fume against fake history taught in NCERT books</p>
+									  		</div>
+								  		</div>
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/6.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>#SaveAndhraTemples trend as Hindus demand immediate steps for safety of temples</p>
+									  		</div>
+								  		</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="live">
+							<div class="tab">
+							  	<button class="tablinks hitab" onclick="hindus(event, 'hinduism')" id="defaultOpen4">Hinduism</button>
+							  	<button class="tablinks hitab" onclick="hindus(event, 'inspirational')">Inspirational Quotes</button>
+							</div>
+							<div id="hinduism" class="tabcontent hicontent">
+								<div class="n-btnn">
+									<a href="#">More News <i class="fa fa-angle-double-right"></i></a>
+								</div>
+								<div class="news-box">
+								  	<div class="news new">
+								  		<a href="#">
+								  			<img src="img/covid_vaccine.jpg">
+								  			<p>
+								  				Haj pilgrims, volunteers, field workers in Kerala’s priority list for vaccination
+								  			</p>
+								  		</a>
+								  	</div>
+								  	<div class="news">
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/1.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>Sign Petition : Facebook suspends Hindu Janajagruti Samiti’s Facebook pages </p>
+									  		</div>
+								  		</div>
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/2.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>‘Don’t use IMA to propagate any religion’: Delhi court slams IMA </p>
+									  		</div>
+								  		</div>
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/3.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>Neglected Lakshadweep !</p>
+									  		</div>
+								  		</div>
+								  	</div>
+								</div>
+							</div>
+							<div id="inspirational" class="tabcontent hicontent">
+								<div class="n-btnn">
+									<a href="#">More Trends <i class="fa fa-angle-double-right"></i></a>
+								</div>
+							  	<div class="news-box">
+								  	<div class="news new">
+								  		<a href="#">
+								  			<img src="img/law.jpg">
+								  			<p>
+								  				#IndiaWants_BlasphemyLaw trends as Hindus demand law against blasphemous material insulting Hindu Dharma
+								  			</p>
+								  		</a>
+								  	</div>
+								  	<div class="news">
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/4.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>#KashmiriHindusExodus_ 31Yrs trends highlighting plight of Kashmiri Hindus</p>
+									  		</div>
+								  		</div>
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/5.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>#NCERT_Fakes_History trends as Hindus fume against fake history taught in NCERT books</p>
+									  		</div>
+								  		</div>
+								  		<div class="nn-box newss">
+								  			<div class="img">
+									  			<img src="img/6.jpg">
+									  		</div>
+									  		<div class="p">
+									  			<p>#SaveAndhraTemples trend as Hindus demand immediate steps for safety of temples</p>
+									  		</div>
+								  		</div>
+								  	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- ------------------------four------------------------ -->
+		<section id="second">
+			<div class="container">
+				<div class="live">
+					<div class="tab">
+						<button class="tablinks hjstab" onclick="hjs(event, 'activities')" id="defaultOpen5">HJS Activities</button>
+						<button class="tablinks hjstab" onclick="hjs(event, 'sabha')">Dharmajagruti Sabha</button>
+						<button class="tablinks hjstab" onclick="hjs(event, 'rashtriya')">Rashtriya Hindu Andolan</button>
+						<button class="tablinks hjstab" onclick="hjs(event, 'adhiveshan')">Hindu Adhiveshan</button>
+					</div>
+					<div id="activities" class="tabcontent hjscontent">
+						<div class="n-btnn">
+							<a href="#">More Trends <i class="fa fa-angle-double-right"></i></a>
+						</div>
+						<div class="trend-box">
+							<div class="trend">
+								<a href="#">
+									<img src="img/7.jpg">
+									<p>
+										Upset Hindus urge Netflix to rethink hosting anime ‘Record of Ragnarok’ as it trivializes Shiva
+									</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/8.jpg">
+									<p>Derogatory depiction of Shriram and Sita in modern attire in the Web Series ‘Ramyug’</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/9.jpg">
+									<p>‘Hindi filmmakers repeatedly insult Hindu Gods and Goddesses’ : Remarks Allahabad HC</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/10.jpg">
+									<p>You can’t hurt religious sentiments : SC rejects anticipatory bail pleas of ‘Tandav’ makers</p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div id="sabha" class="tabcontent hjscontent">
+						<div class="n-btnn">
+							<a href="#">More Trends <i class="fa fa-angle-double-right"></i></a>
+						</div>
+						<div class="trend-box">
+							<div class="trend">
+								<a href="#">
+									<img src="img/9.jpg">
+									<p>
+										Upset Hindus urge Netflix to rethink hosting anime ‘Record of Ragnarok’ as it trivializes Shiva
+									</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/8.jpg">
+									<p>Derogatory depiction of Shriram and Sita in modern attire in the Web Series ‘Ramyug’</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/2.jpg">
+									<p>‘Hindi filmmakers repeatedly insult Hindu Gods and Goddesses’ : Remarks Allahabad HC</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/10.jpg">
+									<p>You can’t hurt religious sentiments : SC rejects anticipatory bail pleas of ‘Tandav’ makers</p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div id="rashtriya" class="tabcontent hjscontent">
+						<div class="n-btnn">
+							<a href="#">More Trends <i class="fa fa-angle-double-right"></i></a>
+						</div>
+						<div class="trend-box">
+							<div class="trend">
+								<a href="#">
+									<img src="img/5.jpg">
+									<p>
+										Upset Hindus urge Netflix to rethink hosting anime ‘Record of Ragnarok’ as it trivializes Shiva
+									</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/4.jpg">
+									<p>Derogatory depiction of Shriram and Sita in modern attire in the Web Series ‘Ramyug’</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/9.jpg">
+									<p>‘Hindi filmmakers repeatedly insult Hindu Gods and Goddesses’ : Remarks Allahabad HC</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/10.jpg">
+									<p>You can’t hurt religious sentiments : SC rejects anticipatory bail pleas of ‘Tandav’ makers</p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div id="adhiveshan" class="tabcontent hjscontent">
+						<div class="n-btnn">
+							<a href="#">More Trends <i class="fa fa-angle-double-right"></i></a>
+						</div>
+						<div class="trend-box">
+							<div class="trend">
+								<a href="#">
+									<img src="img/5.jpg">
+									<p>
+										Upset Hindus urge Netflix to rethink hosting anime ‘Record of Ragnarok’ as it trivializes Shiva
+									</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/4.jpg">
+									<p>Derogatory depiction of Shriram and Sita in modern attire in the Web Series ‘Ramyug’</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/9.jpg">
+									<p>‘Hindi filmmakers repeatedly insult Hindu Gods and Goddesses’ : Remarks Allahabad HC</p>
+								</a>
+							</div>
+							<div class="trend">
+								<a href="#">
+									<img src="img/10.jpg">
+									<p>You can’t hurt religious sentiments : SC rejects anticipatory bail pleas of ‘Tandav’ makers</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ----------------------------------five----------------- -->
+		<section id="second five">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="follow">
+							<h2>Follow us on Facebook</h2>
+
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="follow">
+							<h2>Follow us on Twitter</h2>
+							<a class="twitter-timeline" data-width="100%" data-height="350" data-theme="light" href="https://twitter.com/SG_HJS?ref_src=twsrc%5Etfw">Tweets by @SG_HJS</a>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="follow">
+							<h2>Follow us on Youtube</h2>
+							<iframe id="ytplayer" type="text/html" width="100%" height="350"
+							src="https://www.youtube.com/embed/MZ1WVQ3x0eU?autoplay=1&origin=http://example.com"
+							frameborder="0"></iframe>
+						</div>
+					</div>
+					<div class="shair">
+						<p>Share this on :</p>
+						<ul>
+							<a style="background-color: #00aeef;" href="#"><i class="fa fa-twitter"></i></a>
+							<a style="background-color: #39599c;" href="#"><i class="fa fa-facebook"></i></a>
+							<a style="background-color: #52d100;" href="#"><i class="fa fa-whatsapp"></i></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="footer">
+						<h2>About Us</h2>
+						<p>
+							‘Hindu Janajagruti Samiti’ (HJS) was established on 7th October
+							 2002 for Education on Dharma, Bringing about awakening on Dharma,
+							  Protecting the Nation and Dharma and Uniting Hindus.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="footer">
+						<h2>Daily News Feed</h2>
+						<form action="/action_page.php">
+							<div class="email" style="background-color:white">
+							    <input type="text" placeholder="Email address" name="mail" required>
+							</div>
+						    <input type="submit" value="Subscribe">
+						</form>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="footer">
+						<h2>Newsletter</h2>
+						<form action="/action_page.php">
+							<div class="email" style="background-color:white">
+							    <input type="text" placeholder="Email address" name="mail" required>
+							</div>
+						    <input type="submit" value="Subscribe">
+						</form>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="footer">
+						<h2>Follow Us</h2>
+						<ul>
+							<a href="#"><i class="fa fa-twitter" style="background-color: #00aeef;"></i></a>
+							<a href="#"><i class="fa fa-facebook" style="background-color: #39599c;"></i></a>
+							<a href="#"><i class="fa fa-youtube-play" style="background-color: #FF0000;"></i></a>
+							<a href="#"><i class="fa fa-instagram" style="background-color: #DD2A7B;"></i></a>
+							<a href="#"><i class="fa fa-telegram" style="background-color: #0088cc;"></i></a>
+						</ul>
+						<br>
+						<h2>Contact Us</h2>
+						<p>contact [at] hindujagruti [dot] org</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<section class="copy">
+		<div class="copy-text">
+			<p>© 2014 Hindu Janajagruti Samiti - All Rights Reserved</p>
+		</div>
+	</section>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<script>
+		function openCity(evt, cityName) {
+		  var i, lcontent, ltab;
+		  lcontent = document.getElementsByClassName("lcontent");
+		  for (i = 0; i < lcontent.length; i++) {
+		    lcontent[i].style.display = "none";
+		  }
+		  ltab = document.getElementsByClassName("ltab");
+		  for (i = 0; i < ltab.length; i++) {
+		    ltab[i].className = ltab[i].className.replace(" active", "");
+		  }
+		  document.getElementById(cityName).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
+		document.getElementById("defaultOpen").click();
+	</script>
+
+	<script>
+		function openCityy(evt, cityName) {
+		  var i, ncontent, ntab;
+		  ncontent = document.getElementsByClassName("ncontent");
+		  for (i = 0; i < ncontent.length; i++) {
+		    ncontent[i].style.display = "none";
+		  }
+		  ntab = document.getElementsByClassName("ntab");
+		  for (i = 0; i < ntab.length; i++) {
+		    ntab[i].className = ntab[i].className.replace(" active", "");
+		  }
+		  document.getElementById(cityName).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
+		document.getElementById("defaultOpenn").click();
+	</script>
+
+	<script>
+		function trending(evt, cityName) {
+		  var i, tcontent, ttab;
+		  tcontent = document.getElementsByClassName("tcontent");
+		  for (i = 0; i < tcontent.length; i++) {
+		    tcontent[i].style.display = "none";
+		  }
+		  ttab = document.getElementsByClassName("ttab");
+		  for (i = 0; i < ttab.length; i++) {
+		    ttab[i].className = ttab[i].className.replace(" active", "");
+		  }
+		  document.getElementById(cityName).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
+		document.getElementById("defaultOpen2").click();
+	</script>
+
+	<script>
+		function history(evt, cityName) {
+		  var i, hcontent, htab;
+		  hcontent = document.getElementsByClassName("hcontent");
+		  for (i = 0; i < hcontent.length; i++) {
+		    hcontent[i].style.display = "none";
+		  }
+		  htab = document.getElementsByClassName("htab");
+		  for (i = 0; i < htab.length; i++) {
+		    htab[i].className = htab[i].className.replace(" active", "");
+		  }
+		  document.getElementById(cityName).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
+		document.getElementById("defaultOpen3").click();
+	</script>
+
+	<script>
+		function hindus(evt, cityName) {
+		  var i, hicontent, hitab;
+		  hicontent = document.getElementsByClassName("hicontent");
+		  for (i = 0; i < hicontent.length; i++) {
+		    hicontent[i].style.display = "none";
+		  }
+		  hitab = document.getElementsByClassName("hitab");
+		  for (i = 0; i < hitab.length; i++) {
+		    hitab[i].className = hitab[i].className.replace(" active", "");
+		  }
+		  document.getElementById(cityName).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
+		document.getElementById("defaultOpen4").click();
+	</script>
+
+	<script>
+		function hjs(evt, cityName) {
+		  var i, hjscontent, hjstab;
+		  hjscontent = document.getElementsByClassName("hjscontent");
+		  for (i = 0; i < hjscontent.length; i++) {
+		    hjscontent[i].style.display = "none";
+		  }
+		  hjstab = document.getElementsByClassName("hjstab");
+		  for (i = 0; i < hjstab.length; i++) {
+		    hjstab[i].className = hjstab[i].className.replace(" active", "");
+		  }
+		  document.getElementById(cityName).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
+		document.getElementById("defaultOpen5").click();
+	</script>
+
+	<script>
+	//Get the button
+	var mybutton = document.getElementById("myBtn");
+
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+	    mybutton.style.display = "block";
+	  } else {
+	    mybutton.style.display = "none";
+	  }
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	  document.body.scrollTop = 0;
+	  document.documentElement.scrollTop = 0;
+	}
+	</script>
+   
+
+</body>
+</html>
